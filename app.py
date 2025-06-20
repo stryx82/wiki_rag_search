@@ -44,7 +44,7 @@ with st.form("form"):
     submit = st.form_submit_button("Submit")
 
 if submit and question:
-  with st.spinner("Waiting for Kevin AI..."):
+  with st.spinner("Waiting for stryx's AI..."):
       print("질문 : " + question)
       question = question.replace("\n", " ")
     
